@@ -1,0 +1,25 @@
+
+
+
+
+Sube unas 15 fotos de tu mascota. 
+
+Sigue estas instrucciones para mejores resultados: 
+Solo la mascota. Recorta la imagen si hace falta. 
+Fotos con diferentes angulos y distintas expresiones 
+Fotos en diferentes fondos, angulos y lugares
+Fotos a diferentes horas del día 
+Fotos donde la mascota mire hacia la camara y para otro lado 
+JPG solo. 
+Imagenes de 512x512. (Sube a birme.com tus fotos para recortarlas en grupo)
+
+
+Si sigues estas intrucciones tendrás mejores resultados. 
+
+Las imagenes que subas y el archivo AI entrenado se borrarán a los dos días habiles. No guardamos ningun tipo de información sobre tu mascota. 
+
+
+Despues de pulsar crear, te redirigiremos a la plataforma de Stripe para realizar el pago. Después se tarda unas dos horas en generar el modelo Ai para tu 
+mascota. Una vez terminado el proceso, te enviramos los resultados al correo que nos hayas indicado. (Asegurate de escribir bien el correo)
+
+

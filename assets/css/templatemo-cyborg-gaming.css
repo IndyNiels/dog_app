@@ -781,15 +781,22 @@ Banner Style
 */
 
 .main-banner {
+  display: flex;
+  flex-direction: column;
   background: url(../images/heroimage.png)  rgba(0, 0, 0, 0.5);;
+  /* height: 50vh; */
+  align-self: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-blend-mode: multiply;
-    
-  background-position: center center;
-  background-size: cover;
+  align-items: center;
+  justify-content: center;
+
+  
+  
   min-height: 380px;
   border-radius: 23px;
   padding: 80px 40px;
+  background-blend-mode: multiply;    
 }
 
 .main-banner h6 {
@@ -1658,10 +1665,10 @@ body {
     padding: 0px 30px;
   }
   .main-banner {
-    text-align: center;
+    text-align: left;
   }
   .main-banner h4 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .gaming-library .item ul li,
   .gaming-library .item ul li:first-child,

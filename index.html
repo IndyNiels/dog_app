@@ -16,10 +16,7 @@
 <!-- Uploadcare -->
 
 
-
-<script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.lang.en.min.js"></script>
-    
-
+<script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js"></script>
     
 
   
@@ -44,15 +41,10 @@
   
     
 
-    <script>
+  
 
-      UPLOADCARE_LOCALE = "es"
-      UPLOADCARE_SYSTEM_DIALOG = "true"
 
-      document.addEventListener("DOMContentLoaded", () => {
-          uploadcare.Widget('[name="file"]', { "publicKey": "d688fc4f8de0ffb12e93", "multiple": true, "imagesOnly": true, "tabs": "file" })
-      });
-  </script>
+
 
 
 
@@ -137,13 +129,8 @@
  <br>
 
 
- <div>
-  <input
-  type="hidden"
-  role="uploadcare-uploader"
-  data-public-key="d688fc4f8de0ffb12e93"
-  data-tabs="file facebook gphotos instagram"
-/>
+ <div class = "uploader">
+  <input type="hidden" role="uploadcare-uploader" name="my_file" id="uploadcare-file" data-multiple="true" data-images-only="true"/>
  </div>
   
 <br>
@@ -270,7 +257,7 @@
 
 
 
-
+ <script src="main.js"></script>
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>

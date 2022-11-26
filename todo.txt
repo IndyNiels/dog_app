@@ -1,0 +1,10 @@
+
+## Proceso 
+
+
+1.Plataforma de pago. 
+2.Redirigir a una pagina donde se pueda subir archivos. 
+    Mantener el id del cliente en la pagina. 
+    usar ese id para la subida de archivos. 
+    - Buscar grupo ID en la subida de archivos.(Empezamos por atrás)
+3.Pedir correo electronico. 

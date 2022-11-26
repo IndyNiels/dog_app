@@ -1760,6 +1760,11 @@ Added by Indy
 --------------------------------------------- 
 */
 
+s{
+  text-decoration-thickness: 4px;
+  text-decoration-color: red;
+
+}
 
 a.my-button{
   background: linear-gradient(to right,#5f4cc6 ,#ea5c9a);
@@ -1773,7 +1778,7 @@ a.my-button{
   padding: 24px 26px;
   border: 0px solid #000;
   border-radius: 7px;
-  display: inline-flex;
+  display: inline-block;
   justify-content: center;
   align-items: center;
  }

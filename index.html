@@ -146,7 +146,7 @@
  <br>
   
 
-<a class="my-button" id="my-button" href="https://nb8adrk18ie.typeform.com/to/ePaDUiPJ"> Create +15 pet portraits <s>40€</s> 29€ </a>
+<a class="my-button" onclick = "trackButtonClick_2" id="my-button" href="https://nb8adrk18ie.typeform.com/to/ePaDUiPJ"> Create +15 pet portraits <s>40€</s> 29€ </a>
 
 
           <!-- Texto Acaba-->
@@ -282,6 +282,13 @@
   <script>
     function trackButtonClick() {
       gtag('event', 'click_indy', {
+        'event_category': 'button',
+        'event_label': 'my_button'
+      });
+    }
+
+    function trackButtonClick_2() {
+      gtag('event', 'click_buy', {
         'event_category': 'button',
         'event_label': 'my_button'
       });

@@ -79,7 +79,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #1e1e1e;
+  background-color: #ffffff;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -87,7 +87,7 @@ html, body {
 }
 
 a {
-	color: #CCC;
+	color: #131313;
   text-decoration: none !important;
 }
 a:hover {
@@ -97,8 +97,12 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #fff;
+  color: #000000;
   font-weight: 700;
+}
+
+.hero {
+  color : white; 
 }
 
 ul {
@@ -108,11 +112,11 @@ ul {
 p {
   font-size: 15px;
   line-height: 30px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .white {
-  color: rgb(255, 255, 255);
+  color: rgb(8, 8, 8);
 }
 
 img {
@@ -133,14 +137,14 @@ body {
 
 body .page-content {
   margin-top: 30px;
-  background-color: #27292a;
+  background-color: #ffffff;
   padding: 60px;
   border-radius: 23px;
 }
 
 p {
   font-size: 15px;
-  color: #666;
+  color: #010101;
   line-height: 30px;
   margin-bottom: 0px;
 }
@@ -229,7 +233,7 @@ section {
 }
 
 .heading-section h4 em {
-  color: #fff;
+  color: #000000;
   font-style: normal;
   text-decoration: underline;
 }
@@ -826,7 +830,7 @@ Most Popular Style
 .most-popular {
   margin-top: 60px;
   padding: 30px;
-  background-color: #1f2122;
+  background-color: #ececec;
   border-radius: 23px;
 }
 

@@ -21,7 +21,7 @@
     <link rel="icon" href="assets/images/pistacho4.png">
     <meta name="description" content="Looking for a unique and personalized way to celebrate your furry friend? Our custom pet portraits are the perfect choice! With Artificial Intelligence we generate one-of-a-kind masterpiece that captures your pet's personality. Order your custom pet portrait today and treasure it for years to come.">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" type="text/css" href="email.css">
     <title>Supgerdog AI - Create custom pet portraits from photos of your loved one</title>
 
     <!-- Bootstrap core CSS -->
@@ -31,8 +31,7 @@
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/templatemo-cyborg-gaming.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
+
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
   
     
@@ -111,8 +110,6 @@
           </div>
 
         
-<output></output>
-        
 
 <p class = "white"> 
   📸Upload up to 10 photos of your pet <br>
@@ -137,16 +134,27 @@
 
  <br>
  <br>
- <h6>-  Select 10 images of your pet</h6>
+ <h6> Select 10 images of your pet</h6>
+ <br>
 
- <input onclick="trackButtonClick()" type="file"  multiple="multiple" accept="image/jpeg, image/png, image/jpg">
- <br>
- <input type="hidden" role="uploadcare-uploader" data-public-key="d688fc4f8de0ffb12e93" data-multiple="true" data-images-only="true" data-system-dialog="true" />
- <br>
- <br>
-  
+ <!-- <input onclick="trackButtonClick()" type="file"  multiple="multiple" accept="image/jpeg, image/png, image/jpg"> -->
 
-<a class="my-button" onclick = "trackButtonClick_2()" id="my-button" href="https://buy.stripe.com/4gw4jv3bigPNgNy288"> Create +15 pet portraits <s>39€</s> 15€ </a>
+
+ <div class="cta-container">
+  <form>
+    <input type="hidden" role="uploadcare-uploader" data-public-key="d688fc4f8de0ffb12e93" data-multiple="true" data-images-only="true" data-system-dialog="true" />
+    <label for="email">Email address:</label>
+    <input type="email" id="email" name="email" required>
+    <button type="submit">Create</button>
+  </form>
+</div>
+
+ <br>
+ <br>
+
+
+
+<!-- <a class="my-button" onclick = "trackButtonClick_2()" id="my-button" href="https://buy.stripe.com/4gw4jv3bigPNgNy288"> Create +15 pet portraits <s>39€</s> 15€ </a> -->
 
 
           <!-- Texto Acaba-->
